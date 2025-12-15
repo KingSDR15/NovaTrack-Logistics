@@ -2,7 +2,7 @@
 const deliveries = [
   {
     trackingCode: "R6789654RE",
-    estimatedDelivery: "2025-12-05T11:00:00Z",
+    estimatedDelivery: "2025-12-16T11:00:00Z",
     customs: "Pending",
     shipper: {
       name: "WYCON",
@@ -18,20 +18,23 @@ const deliveries = [
     },
     shipment: {
       weight: "4.5 kg",
-      courier: "DHL Express",
+      courier: "Nova",
       packages: "Pr Package",
       mode: "Air",
-      product: "WYCON Cosmetics",
+      product: "Cosmetics",
       quantity: 30,
       paymentMode: "Paypal",
-      totalFreight: "-",
+      totalFreight: "$200",
       carrierRef: "3453667788",
       departureTime: "11:00",
-      origin: "United States",
+      origin: "Italy",
       destination: "United State, Florida",
       pickupDate: "2025-12-15",
+      comments: "Shipped",
+      agentName: "Johnson Moore",
       pickupTime: "05:00",
-      shipmentType: "Air"
+
+      shipmentType: "Air Cargo"
     },
 events: [
   {
