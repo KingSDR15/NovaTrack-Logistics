@@ -29,7 +29,7 @@ const deliveries = [
       departureTime: "11:00",
       origin: "Italy",
       destination: "United State, Florida",
-      pickupDate: "2025-12-15",
+      pickupDate: "2025-12-16",
       comments: "Shipped",
       agentName: "Johnson Moore",
       pickupTime: "05:00",
@@ -556,3 +556,4 @@ events: [
     ]
   }
 ];
+
